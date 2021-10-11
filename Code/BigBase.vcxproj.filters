@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="UI\AbstractOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractSubmenu.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseSubmenu.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BoolOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ChooseOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="YTDLoader.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularSubmenu.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerSubmenu.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\NumberOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Natives.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomText.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SubOption.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Lists.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="pgCollection.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnSpoof.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptCallback.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGlobal.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureScanner.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="srcEngine.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SHVPEImage.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SHVASILoader.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SHVScriptEngine.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SHVScriptManager.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SHVScriptThread.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SHVUtility.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionList.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\include\discord_register.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\include\discord_rpc.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossmap.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashes.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="LogScript.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScript.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeMemory.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextBox.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="WinCrypt.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\core.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\format.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\format-inl.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt\json.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="remotehashes.h">
+      <Filter>CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Fibers.hpp">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Logger.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeMemory.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHVASILoader.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHVPEImage.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHVScriptEngine.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHVScriptManager.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHVUtility.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomText.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptCallback.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="YTDLoader.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickUI.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main-Menu.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\Demo_Test.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\D3D_Draw.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Fiber-Pool.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{5ec437c0-c2af-476d-af5e-e9710421e366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADER">
+      <UniqueIdentifier>{f976b9d8-f58a-4c76-88bd-b26966aa71b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{348c448d-861f-4b8f-9415-a49cfc770e7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Discord\lib\discord-rpc.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="Libraries\Binaries\MinHook-Release.lib">
+      <Filter>LIB</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="ReturnSpoof.asm" />
+  </ItemGroup>
+</Project>
